@@ -5,7 +5,7 @@ interactive parallel ssh
 there are many parallel ssh tools, but most of them don’t provide interactive capability. The only 3 I know is X-windows based clusterSsh, Mac OS based csshx and chef-ssh.
 clusterSsh requires X-windows, csshx require Mac OS and chef-ssh requires Chef server and only connects to servers managed by Chef.
 
-I need to manage many Linux hosts within Amazon (EC2) and need interactive ssh to many of them at same time, cannot find any existing tool, So I wrote one using Python.
+I need to manage many Linux hosts within Amazon (EC2) and within different data centers, I need interactive ssh to many of them at same time, cannot find any existing tool, So I wrote one using Python. 
 
 ### feature
 * can connect to multiple hosts in parallel and ran command interactively 
